@@ -35,10 +35,10 @@ Install `react-sortable-tree` using npm.
 
 ```sh
 # NPM
-npm install @nosferatu500/react-sortable-tree --save
+npm install @happyfranks/react-sortable-tree --save
 
 # YARN
-yarn add @nosferatu500/react-sortable-tree
+yarn add @happyfranks/react-sortable-tree
 ```
 
 ES6 and CommonJS builds are available with each distribution.
@@ -46,28 +46,28 @@ For example:
 
 ```js
 // This only needs to be done once; probably during your application's bootstrapping process.
-import '@nosferatu500/react-sortable-tree/style.css';
+import '@happyfranks/react-sortable-tree/style.css';
 
 // You can import the default tree with dnd context
-import SortableTree from '@nosferatu500/react-sortable-tree';
+import SortableTree from '@happyfranks/react-sortable-tree';
 
 // Or you can import the tree without the dnd context as a named export. eg
-import { SortableTreeWithoutDndContext as SortableTree } from '@nosferatu500/react-sortable-tree';
+import { SortableTreeWithoutDndContext as SortableTree } from '@happyfranks/react-sortable-tree';
 
 // Importing from cjs (default)
-import SortableTree from '@nosferatu500/react-sortable-tree/dist/index.cjs.js';
-import SortableTree from '@nosferatu500/react-sortable-tree';
+import SortableTree from '@happyfranks/react-sortable-tree/dist/index.cjs.js';
+import SortableTree from '@happyfranks/react-sortable-tree';
 
 // Importing from esm
-import SortableTree from '@nosferatu500/react-sortable-tree/dist/index.esm.js';
+import SortableTree from '@happyfranks/react-sortable-tree/dist/index.esm.js';
 ```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react';
-import SortableTree from '@nosferatu500/react-sortable-tree';
-import '@nosferatu500/react-sortable-tree/style.css'; // This only needs to be imported once in your app
+import SortableTree from '@happyfranks/react-sortable-tree';
+import '@happyfranks/react-sortable-tree/style.css'; // This only needs to be imported once in your app
 
 export default class Tree extends Component {
   constructor(props) {
@@ -189,10 +189,10 @@ react-dnd only allows for one DragDropContext at a time (see: https://github.com
 
 ```js
 // before
-import SortableTree from '@nosferatu500/react-sortable-tree';
+import SortableTree from '@happyfranks/react-sortable-tree';
 
 // after
-import { SortableTreeWithoutDndContext as SortableTree } from '@nosferatu500/react-sortable-tree';
+import { SortableTreeWithoutDndContext as SortableTree } from '@happyfranks/react-sortable-tree';
 ```
 
 ## Contributing

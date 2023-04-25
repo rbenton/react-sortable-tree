@@ -1,5 +1,5 @@
 {
-  "name": "@nosferatu500/react-sortable-tree",
+  "name": "@happyfranks/react-sortable-tree",
   "version": "4.3.0",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
   "main": "./index.js",
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nosferatu500/react-sortable-tree"
+    "url": "https://github.com/rbenton/react-sortable-tree"
   },
   "keywords": [
     "react",
@@ -64,7 +64,7 @@
     "Vitalii Shvetsov"
   ],
   "license": "MIT",
-  "bugs": "https://github.com/nosferatu500/react-sortable-tree/issues",
+  "bugs": "https://github.com/rbenton/react-sortable-tree/issues",
   "dependencies": {
     "@nosferatu500/react-dnd-scrollzone": "^2.0.10",
     "lodash.isequal": "^4.5.0",
